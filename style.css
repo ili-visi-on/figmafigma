@@ -1,3 +1,11 @@
+html {
+  font-size: 16;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -19,7 +27,7 @@ body {
   color: #1e293b;
 }
 
-.highlight {
+span {
   color: #00c8b0;
 }
 
@@ -133,4 +141,37 @@ body {
 
 .software .description {
   text-align: center;
+}
+
+.purple {
+  background-color: #5b72ee;
+}
+
+.green {
+  background-color: #00cbb8;
+}
+
+.blue {
+  background-color: #29b9e7;
+}
+
+.icon {
+  width: 4.16rem;
+  height: 4.16rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 2rem;
+  height: 2rem;
+}
+.software li {
+  width: 28.12rem;
+}
+.software li h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
 }
